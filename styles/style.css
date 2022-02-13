@@ -74,12 +74,12 @@
   justify-content: center;
   margin: 0 auto;
 }
-.tow-columns {
+.two-columns {
   display: flex;
   width: 80%;
   justify-content: space-between;
 }
-.tow-columns__brief {
+.two-columns__brief {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -87,20 +87,20 @@
   margin: 0;
   width: 175px;
 }
-.tow-columns__main-text {
+.two-columns__main-text {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   width: 80%;
   min-width: 784px;
 }
-.tow-columns__paragraph {
+.two-columns__paragraph {
   margin: 0 0 30px;
 }
-.tow-columns__paragraph:last-child {
+.two-columns__paragraph:last-child {
   margin-bottom: 0;
 }
-.tow-columns__span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 700;
@@ -229,6 +229,7 @@
 }
 
 .footer {
+  display: flex;
   box-sizing: border-box;
   min-height: 350px;
   padding: 60px 0 40px;
