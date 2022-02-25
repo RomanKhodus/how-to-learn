@@ -1,0 +1,7 @@
+.video {
+  box-sizing: border-box;
+  padding-top: 100px;
+  max-width: 1050px;
+  height: 550px;
+  margin: 0 auto;
+}
