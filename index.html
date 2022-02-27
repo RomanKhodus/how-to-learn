@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -17,7 +16,7 @@
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a href="#"
-          class="header__link"> Узнать &#8594;</a>
+          class="header__link"> Узнать &rarr;</a>
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="опять двойка">
       <div class="header__square-pic rotation"></div>
@@ -50,20 +49,20 @@
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards">
           <li class="cards__item">
-            <img src="./images/cards-attention.png" alt="Картинка" class="cards__image">
+            <img src="./images/cards-attention.png" alt=" Обложка книги: '101 способ изменить свое мышление'" class="cards__image">
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
               мышление.</p>
           </li>
 
           <li class="cards__item">
-            <img src="./images/cards-competence.png" alt="Картинка" class="cards__image">
+            <img src="./images/cards-competence.png" alt="Картинка: стопка книг" class="cards__image">
             <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
           </li>
 
           <li class="cards__item">
-            <img src="./images/cards-interliving.png" alt="Картинка" class="cards__image">
+            <img src="./images/cards-interliving.png" alt="Картинка: огромный холл" class="cards__image">
             <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
           </li>
@@ -87,16 +86,15 @@
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+        <!-- Если video__iframes сделать ul, то нужно iframe оборачивать li и делать ему класс, что бы сбросить маркер, отступы... Не будет ли это противоречить брифу? -->
         <div class="video__iframes">
-          <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen
-            class="video__iframe"></iframe>
-          <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen
-            class="video__iframe"></iframe>
+          <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen class="video__iframe"></iframe>
+          <iframe src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen class="video__iframe"></iframe>
         </div>
       </section>
 
-      <section class="oacley">
-        <div class="two-columns">
+      <section class="oakley">
+        <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">
@@ -107,13 +105,13 @@
               глубже, чем у тех, кому всё ясно с первого взгляда.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href="#" class="feynman__link">Подробнее &#8594;</a>
+        <a href="#" class="feynman__link">Подробнее &rarr;</a>
       </section>
 
       <section class="digits">
@@ -159,18 +157,18 @@
 
       <section class="khan">
         <div class="khan__container">
-          <div class="khan__author">Салман Хан</div>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <div class="khan__quote">
+          <blockquote class="khan__quote">
             Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир —
             школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и
             знания, которые приносят успех в школе, карьере и жизни.
-          </div>
-          <div class="khan__quote-author">Джордж Лукас</div>
-          <div class="khan__quote-author-subline">Кинорежиссер, продюсер</div>
+          </blockquote>
+          <p class="khan__quote-author">Джордж Лукас</p>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic"></div>
-            <a href="" class="khan__buy-link">Купить книгу &#8594;</a>
+            <img src="./images/khan-book.jpg" alt="Обложка книги: Весь мир - школа" class="khan__book-pic">
+            <a href="" class="khan__buy-link">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -226,16 +224,16 @@
 
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
-        <div class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</div>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <div class="resources__logo-zone">
-          <a href="https://arzamas.academy/" target="_blank"><img src="./images/logo/resources-arzamas.svg"
-              alt="Логотип" class="resources__logo"></a>
-          <a href="https://nplus1.ru/" target="_blank"><img src="./images/logo/resources-n1.svg" alt="Логотип"
+          <a href="https://arzamas.academy/" target="_blank" rel="noopener"><img src="./images/logo/resources-arzamas.svg"
+              alt="Логотип Арзамас" class="resources__logo"></a>
+          <a href="https://nplus1.ru/" target="_blank" rel="noopener"><img src="./images/logo/resources-n1.svg" alt="Логотип N+1 "
               class="resources__logo"></a>
-          <a href="https://polka.academy/" target="_blank"><img src="./images/logo/resources-polka.svg" alt="Логотип"
+          <a href="https://polka.academy/" target="_blank" rel="noopener"><img src="./images/logo/resources-polka.svg" alt="Логотип Полка"
               class="resources__logo"></a>
-          <a href="https://www.strelka.com/ru" target="_blank"><img src="./images/logo/resources-strelka.svg"
-              alt="Логотип" class="resources__logo"></a>
+          <a href="https://www.strelka.com/ru" target="_blank" rel="noopener"><img src="./images/logo/resources-strelka.svg"
+              alt="Логотип Стрелка" class="resources__logo"></a>
         </div>
       </section>
     </main>
